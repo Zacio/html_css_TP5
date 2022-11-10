@@ -7,8 +7,6 @@
     margin: 20px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-
 }
 
 .dot{
@@ -19,21 +17,53 @@
     border-radius: 10px;
 }
 
+/* #d4 div{ */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* row-gap: 30px; */
+/* } */
+/* #d5 div{ */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* row-gap: 50px; */
+/* } */
+/* #d6 div{ */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* row-gap: 20px; */
+/* } */
+
+#d1, #d2, #d3{
+    align-items: center;
+}
+
+
 #d4 div{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    row-gap: 30px;
+	flex-direction: column;
+	justify-content: space-around;
 }
+
+#d5{
+    justify-content: space-evenly;
+}
+
 #d5 div{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    row-gap: 50px;
+	flex-direction: column;
+	justify-content: space-around;
 }
+
+#d5 div:nth-child(2){
+    align-self: center;
+}
+
+
 #d6 div{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    row-gap: 20px;
+	flex-direction: column;
+	justify-content: space-around;
 }
